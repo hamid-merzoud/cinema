@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>cinema</title>
+   
+</head>
+<body> 
+    <h1>Les cinémas SimplonTheater</h1>
+    <div class="content">
+
+        <label for="" class="title">FILMS</label>
+        <select id="film">
+            <option value="">choix des films</option>
+            <option value="10">Camping <span class="price"></span>£ 10.00</option>
+            <option value="11">Thenet <span class="price"></span>£ 11.00</option>
+            <option value="14">Avangers <span class="price">£ 14.00</span></option>
+            <option value="17">Mission impossible <span class="price">£ 17.00</span></option>
+        </select>
+
+    </div>
+
+    <div class="cinemaInfo">
+
+        <div class="seat info"></div>
+        <small>Libre</small>
+         <div class="seat info selezionata"></div>
+        <small>Séléctionné</small>
+         <div class="seat info occupata"></div>
+        <small>Occupé</small>
+
+    </div>
+
+    <div class="theatre">
+            <div class="ecran">Ecan</div>
+            <div class="theatreRows">
+                <div class="row" id="1">
+                    <div class="rowNumber" id="1" style="color: beige;"></div>
+                    <div class="place" id="1"></div>
+                    <div class="place" id="2"></div>
+                    <div class="place" id="3"></div>
+                    <div class="place" id="4"></div>
+                    <div class="place" id="5"></div>
+                    <div class="place" id="6"></div>
+                    <div class="place" id="7"></div>
+                    <div class="place" id="8"></div>
+                </div>
+
+                <div class="row" id="2">
+                    <div class="rowNumber" id="2"></div>
+                    <div class="place" id="1"></div>
+                    <div class="place" id="2"></div>
+                    <div class="place" id="3"></div>
+                    <div class="place" id="4"></div>
+                    <div class="place" id="5"></div>
+                    <div class="place" id="6"></div>
+                    <div class="place" id="7"></div>
+                    <div class="place" id="8"></div>
+                </div>
+
+                <div class="row" id="3">
+                    <div class="rowNumber" id="3"></div>
+                    <div class="place" id="1"></div>
+                    <div class="place" id="2"></div>
+                    <div class="place" id="3"></div>
+                    <div class="place" id="4"></div>
+                    <div class="place" id="5"></div>
+                    <div class="place" id="6"></div>
+                    <div class="place" id="7"></div>
+                    <div class="place" id="8"></div>
+                </div>
+
+                <div class="row" id="4">
+                    <div class="rowNumber" id="4"></div>
+                    <div class="place" id="1"></div>
+                    <div class="place" id="2"></div>
+                    <div class="place" id="3"></div>
+                    <div class="place occupe" id="4"></div>
+                    <div class="place" id="5"></div>
+                    <div class="place" id="6"></div>
+                    <div class="place" id="7"></div>
+                    <div class="place" id="8"></div>
+                </div>
+
+                <div class="row" id="5">
+                    <div class="rowNumber" id="5"></div>
+                    <div class="place" id="1"></div>
+                    <div class="place" id="2"></div>
+                    <div class="place" id="3"></div>
+                    <div class="place" id="4"></div>
+                    <div class="place" id="5"></div>
+                    <div class="place" id="6"></div>
+                    <div class="place" id="7"></div>
+                    <div class="place" id="8"></div>
+                </div>
+
+                <div class="row" id="6">
+                    <div class="rowNumber" id="6"></div>
+                    <div class="place" id="1"></div>
+                    <div class="place" id="2"></div>
+                    <div class="place" id="3"></div>
+                    <div class="place" id="4"></div>
+                    <div class="place" id="5"></div>
+                    <div class="place" id="6"></div>
+                    <div class="place" id="7"></div>
+                    <div class="place" id="8"></div>
+                </div>
+
+                <div class="row" id="7">
+                    <div class="rowNumber" id="7"></div>
+                    <div class="place" id="1"></div>
+                    <div class="place" id="2"></div>
+                    <div class="place" id="3"></div>
+                    <div class="place" id="4"></div>
+                    <div class="place" id="5"></div>
+                    <div class="place" id="6"></div>
+                    <div class="place occupata" id="7"></div>
+                    <div class="place selezionata" id="8"></div>
+                </div>
+            </div>
+     
+    </div>
+
+    <div class="checkOut">
+         <div class="postoS"></div>
+         <div class="chechOutTotal">
+            <span>place: </span><span class="placeTotal">0</span>
+            <span>total £: </span><span class="costo">0</span>
+         </div>
+
+         <div class="chechOutTwo">
+            <form action="">
+                 
+                <button type="submit" class="btn">VALIDER</button>
+            </form>
+
+        </div>
+
+
+    </div>
+ 
+
+
+
+     <script src="js/main.js"></script>
+    
+</body>
+</html>
